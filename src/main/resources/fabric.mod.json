@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bayzu_livehud",
+  "version": "${version}",
+  "name": "BAYZU TikTok LIVE HUD",
+  "description": "Floating TikTok LIVE chat, viewer and gift overlay for Minecraft Java.",
+  "authors": ["BAYZU"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["id.bayzu.livehud.BayzuLiveHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
